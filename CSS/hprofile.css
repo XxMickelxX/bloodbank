@@ -1,0 +1,47 @@
+body
+		{
+			margin: 0px;
+		}
+		.card {
+			width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    margin: 216px 500px;
+    border-radius: 30px;
+    border: 1px solid rgb(155, 10, 39);
+}
+.card .title {
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.card-body {
+margin-top: 20px;
+}
+form
+{
+	display: grid;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin: 10px;
+}
+.btn{ background-color: rgb(155, 10, 39);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    left: 100px;
+    width: 120px;
+    margin: 32px;
+    height: 34px;}

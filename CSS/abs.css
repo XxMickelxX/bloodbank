@@ -1,0 +1,115 @@
+.main{
+    display: inline-flex;
+    position: relative;
+    margin: 105px;
+    margin-bottom: 115px;
+    top: 30px;
+
+}
+body
+{
+    margin: 0px;
+}
+table.table_table {
+width: 1300px;
+background-color: #ffffff;
+border-collapse: collapse;
+border-width: 1px;
+border-color: #000000;
+border-style: double;
+color: #000000;
+position: relative;
+top: 40px;
+font-size: 22px;
+margin-bottom: 70px;
+}
+
+table.table_table td, table.table_table th {
+border-width: 1px;
+border-color: #000000;
+border-style: double;
+padding: 12px;
+}
+
+table.table_table thead {
+background-color: rgb(155, 10, 39);
+font-size: 40px;
+color:white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+.search
+{
+background-color: rgb(155, 10, 39);
+border: none;
+border-radius: 10px;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+width: 120px;
+height: 34px;
+margin-left: 30px;
+}
+.vvv button
+{background-color: rgb(155, 10, 39);
+border: none;
+border-radius: 10px;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+width: 120px;
+height: 34px;
+margin-left: 3px;}
+.vvv
+{
+position: absolute;
+}
+.vvv a{
+text-decoration: none;
+color: white;
+}
+form
+{
+margin-top: -27px;
+display: flex;
+align-items: center;
+}
+select
+{
+    width: 180px;
+height: 35px;
+margin: 0px 20px;
+border-radius: 20px;
+}
+.font-weight-bolder
+{
+font-size: 25px;
+}
+header {
+padding: 10px;
+box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+width: 99%;
+position: absolute;
+top: 0px;
+background-color: rgba(255, 255, 255, 0.99999);
+z-index: 100;
+}
+.rs
+{
+background-color: rgb(155, 10, 39);
+border: none;
+border-radius: 10px;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 14px;
+cursor: pointer;
+width: 120px;
+height: 34px;
+}

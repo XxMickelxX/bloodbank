@@ -1,0 +1,108 @@
+body
+{
+  margin: 0px;
+}
+    table.table_table {
+width: 1300px;
+background-color: #ffffff;
+border-collapse: collapse;
+border-width: 1px;
+border-color: #000000;
+border-style: double;
+color: #000000;
+position: relative;
+top: 40px;
+font-size: 22px;
+margin:0px 0px 500px 50px;
+}
+
+table.table_table td, table.table_table th {
+border-width: 1px;
+border-color: #000000;
+border-style: double;
+padding: 12px;
+}
+
+table.table_table thead {
+background-color: rgb(155, 10, 39);
+font-size: 40px;
+color:white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+/* Center all elements */
+.container {
+/*display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+*/
+position: relative;
+top: 100px;
+}
+
+
+
+/* Center table and its contents */
+
+
+/* Center message and collapse content */
+.message,
+.collapse {
+text-align: center;
+}
+
+
+
+.btn{ background-color:rgb(155, 10, 39);
+border: none;
+border-radius: 10px;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 25px;
+position: relative;
+cursor: pointer;
+/* left: 100px; */
+width: 160px;
+margin: 32px;
+height: 37px;}
+
+.btn-d{ background-color: rgb(155, 10, 39);
+border: none;
+border-radius: 10px;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+position: relative;
+cursor: pointer;
+left: 5px;
+width: 100px;
+margin: 0px;
+height: 34px;}
+
+.float-right {
+float: right;
+}
+.rr
+{
+position: relative;
+float: right;
+display: flex;
+align-items: baseline;
+}
+.row
+{
+position: relative;
+display: flex;
+}
+.container
+{
+position: relative;
+align-items: flex-start;
+top: 100px;
+display: inline-flex;
+}

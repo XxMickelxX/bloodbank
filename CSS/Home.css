@@ -1,0 +1,76 @@
+body {
+   /* min-height: 100hv;*/
+    margin: 0px;
+    
+}
+
+
+
+img
+{
+    width: 100%;
+    position: relative;
+   
+}
+
+.main
+{
+    
+    position: relative;
+
+} 
+.vico
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../images/IMG_20230422_010900.jpg") no-repeat;
+    background-size: cover;
+    background-position:center ;
+}
+ .n button
+{  
+     background-color: rgb(232, 40, 56);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    width: 210px;
+    height: 60px;
+    left: -10px;
+    top: 161px;
+    position: absolute;
+}
+.n
+{
+    position: absolute;
+    top: 237px;
+}
+#l1
+{
+    font-size: 76px;
+    color: rgb(232, 40, 56);
+    margin: 6px;
+}
+#l2
+{
+    font-size: 50px;
+    position: absolute;
+    left: 8px;
+    top: 55px;
+}
+.n a
+{
+    text-decoration: none;
+    color: white;
+}
+#l3
+{
+    font-size: 24px;
+}
